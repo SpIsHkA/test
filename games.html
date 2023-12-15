@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игры</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/style_games.css">
+</head>
+<body>
+
+    <div class="header">
+        <header>
+            <img class='logo' src="./img/logo/logo.svg">
+            <div class="navigation">
+                <a href="./about.html"><h5>Обо мне</h5></a>
+                <a href="./games.html" style="color: #E41C5C"><h5>Игры</h5></a>
+            </div>
+        </header>
+    </div>
+
+    <div class="content">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide" onclick="openPage('https://www.php.net/manual/ru/langref.php')">
+                    <img src="./img/banner/Frame 3.png" alt="Slide 1">
+                </div>
+                <div class="slide" onclick="openPage('https://www.php.net/manual/ru/langref.php')">
+                    <img src="./img/banner/Frame 1.png" alt="Slide 1">
+                </div>
+                <div class="slide" onclick="openPage('https://www.php.net/manual/ru/langref.php')">
+                    <img src="./img/banner/Frame 2.png" alt="Slide 1">
+                </div>
+                <!-- Добавьте дополнительные слайды, как необходимо -->
+            </div>
+            <div class="dots-container"></div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Игры</h1>
+        <div class="content-games">
+            <div class="game-card">
+                <div class="card-content">
+                    <img src="./img/games/Rooms/image 1.png" class="catalog-game-picture">
+                    <div class="card-text-with-button">
+                        <div class="text-with-icon">
+                            <div class="card-text">
+                                <div class="name-game-with-icon">
+                                    <h2>Rooms</h2>
+                                    <img class='beta' src="./img/icons/beta_small.svg">
+                                </div>
+                                <h3>Rooms — мультиплеерный хоррор для 2-4 игроков в заброшенном бункере. Выживайте, восстанавливайте электричество и бегите от маньяка или охотьтесь на жертв. Процедурная генерация уровней добавит уникальности каждой игре.</h3>
+                            </div>
+                            <div class="platforms-icons">
+                                <img src="./img/icons/logo-windows.svg">
+                                <img src="./img/icons/logo-android.svg">
+                            </div>
+                        </div>
+                        <div class="button-info" onclick="location.href='./about.html';">
+                            <h5>Подробнее</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img class="logo-footer" src="./img/logo/logo_white.svg">
+        <div class="logo-services">
+            <a href="https://discord.com/invite/HpdjqgfJ28" target="_blank">
+                <img src="./img/icons/discord.svg">
+            </a>
+            <a href="https://www.twitch.tv/larvagames" target="_blank">
+                <img src="./img/icons/twitch.svg">
+            </a>
+            <a href="https://www.youtube.com/@larva_games" target="_blank">
+                <img src="./img/icons/youtube.svg">
+            </a>
+        </div>
+    </footer>
+
+    <script src="banner.js"></script>
+</body>
+</html>
